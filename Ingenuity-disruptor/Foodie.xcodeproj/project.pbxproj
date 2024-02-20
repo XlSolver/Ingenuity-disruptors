@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1775C5FD2B84D42300DA2737 /* BarcodeScannerScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1775C5FC2B84D42300DA2737 /* BarcodeScannerScreen.swift */; };
+		1775C5FF2B84D44500DA2737 /* BarcodeScannerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1775C5FE2B84D44500DA2737 /* BarcodeScannerController.swift */; };
+		1775C6012B84D46C00DA2737 /* BarcodeScannerControllerProcessing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1775C6002B84D46C00DA2737 /* BarcodeScannerControllerProcessing.swift */; };
+		1775C6032B84D48E00DA2737 /* ScannerOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1775C6022B84D48E00DA2737 /* ScannerOverlayView.swift */; };
+		1775C6052B84D4E500DA2737 /* TabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1775C6042B84D4E500DA2737 /* TabController.swift */; };
+		1775C6072B84D50300DA2737 /* TipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1775C6062B84D50300DA2737 /* TipsView.swift */; };
+		1775C6092B84D51800DA2737 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1775C6082B84D51800DA2737 /* ListView.swift */; };
+		1775C60C2B84D58C00DA2737 /* OpenFoodFactsSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 1775C60B2B84D58C00DA2737 /* OpenFoodFactsSDK */; };
 		F5058DD22B8398CA00A77C36 /* foodieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5058DD12B8398CA00A77C36 /* foodieModel.swift */; };
 		F5EED21A2B7FA067007A25E5 /* FoodieApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EED2192B7FA067007A25E5 /* FoodieApp.swift */; };
 		F5EED21C2B7FA067007A25E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EED21B2B7FA067007A25E5 /* ContentView.swift */; };
@@ -15,6 +23,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1775C5FC2B84D42300DA2737 /* BarcodeScannerScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeScannerScreen.swift; sourceTree = "<group>"; };
+		1775C5FE2B84D44500DA2737 /* BarcodeScannerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeScannerController.swift; sourceTree = "<group>"; };
+		1775C6002B84D46C00DA2737 /* BarcodeScannerControllerProcessing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeScannerControllerProcessing.swift; sourceTree = "<group>"; };
+		1775C6022B84D48E00DA2737 /* ScannerOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerOverlayView.swift; sourceTree = "<group>"; };
+		1775C6042B84D4E500DA2737 /* TabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabController.swift; sourceTree = "<group>"; };
+		1775C6062B84D50300DA2737 /* TipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsView.swift; sourceTree = "<group>"; };
+		1775C6082B84D51800DA2737 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		F5058DD12B8398CA00A77C36 /* foodieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodieModel.swift; sourceTree = "<group>"; };
 		F5EED2162B7FA067007A25E5 /* Foodie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foodie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5EED2192B7FA067007A25E5 /* FoodieApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodieApp.swift; sourceTree = "<group>"; };
@@ -28,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1775C60C2B84D58C00DA2737 /* OpenFoodFactsSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +62,14 @@
 			isa = PBXGroup;
 			children = (
 				F5EED2182B7FA067007A25E5 /* Foodie */,
+				1775C5FC2B84D42300DA2737 /* BarcodeScannerScreen.swift */,
+				1775C5FE2B84D44500DA2737 /* BarcodeScannerController.swift */,
+				1775C6002B84D46C00DA2737 /* BarcodeScannerControllerProcessing.swift */,
+				1775C6022B84D48E00DA2737 /* ScannerOverlayView.swift */,
+				F5EED21B2B7FA067007A25E5 /* ContentView.swift */,
+				1775C6042B84D4E500DA2737 /* TabController.swift */,
+				1775C6062B84D50300DA2737 /* TipsView.swift */,
+				1775C6082B84D51800DA2737 /* ListView.swift */,
 				F5EED2172B7FA067007A25E5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -62,8 +86,6 @@
 			isa = PBXGroup;
 			children = (
 				F5058DD02B8398AB00A77C36 /* Model */,
-				F5EED2192B7FA067007A25E5 /* FoodieApp.swift */,
-				F5EED21B2B7FA067007A25E5 /* ContentView.swift */,
 				F5EED21D2B7FA068007A25E5 /* Assets.xcassets */,
 				F5EED21F2B7FA068007A25E5 /* Preview Content */,
 			);
@@ -74,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				F5EED2202B7FA068007A25E5 /* Preview Assets.xcassets */,
+				F5EED2192B7FA067007A25E5 /* FoodieApp.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -94,6 +117,9 @@
 			dependencies = (
 			);
 			name = Foodie;
+			packageProductDependencies = (
+				1775C60B2B84D58C00DA2737 /* OpenFoodFactsSDK */,
+			);
 			productName = Foodie;
 			productReference = F5EED2162B7FA067007A25E5 /* Foodie.app */;
 			productType = "com.apple.product-type.application";
@@ -122,6 +148,9 @@
 				Base,
 			);
 			mainGroup = F5EED20D2B7FA066007A25E5;
+			packageReferences = (
+				1775C60A2B84D58C00DA2737 /* XCRemoteSwiftPackageReference "openfoodfacts-swift" */,
+			);
 			productRefGroup = F5EED2172B7FA067007A25E5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -148,9 +177,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1775C6072B84D50300DA2737 /* TipsView.swift in Sources */,
 				F5EED21C2B7FA067007A25E5 /* ContentView.swift in Sources */,
 				F5058DD22B8398CA00A77C36 /* foodieModel.swift in Sources */,
+				1775C6032B84D48E00DA2737 /* ScannerOverlayView.swift in Sources */,
 				F5EED21A2B7FA067007A25E5 /* FoodieApp.swift in Sources */,
+				1775C5FF2B84D44500DA2737 /* BarcodeScannerController.swift in Sources */,
+				1775C5FD2B84D42300DA2737 /* BarcodeScannerScreen.swift in Sources */,
+				1775C6092B84D51800DA2737 /* ListView.swift in Sources */,
+				1775C6052B84D4E500DA2737 /* TabController.swift in Sources */,
+				1775C6012B84D46C00DA2737 /* BarcodeScannerControllerProcessing.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,9 +320,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Foodie/Preview Content\"";
-				DEVELOPMENT_TEAM = JZX85Z36BA;
+				DEVELOPMENT_TEAM = 3B6HLC87UZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "To capture product's photo";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -313,9 +350,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Foodie/Preview Content\"";
-				DEVELOPMENT_TEAM = JZX85Z36BA;
+				DEVELOPMENT_TEAM = 3B6HLC87UZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "To capture product's photo";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -356,6 +394,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1775C60A2B84D58C00DA2737 /* XCRemoteSwiftPackageReference "openfoodfacts-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/openfoodfacts/openfoodfacts-swift.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1775C60B2B84D58C00DA2737 /* OpenFoodFactsSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1775C60A2B84D58C00DA2737 /* XCRemoteSwiftPackageReference "openfoodfacts-swift" */;
+			productName = OpenFoodFactsSDK;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F5EED20E2B7FA066007A25E5 /* Project object */;
 }
