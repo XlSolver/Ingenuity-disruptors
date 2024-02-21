@@ -181,24 +181,4 @@ videoOutput.alwaysDiscardsLateVideoFrames = true
     @objc func closeButtonTapped() {
         dismiss(animated: true, completion: nil)
     }
-
-    /*@objc private func toggleFlash() {
-        guard let device = getCaptureDevice(), device.hasTorch else { return }
-        
-        do {
-            try device.lockForConfiguration()
-            
-            if device.torchMode == .on {
-                device.torchMode = .off
-                overlayView.flashButton.setImage(UIImage(systemName: "bolt.slash.circle"), for: .normal)
-            } else {
-                device.torchMode = .on
-                overlayView.flashButton.setImage(UIImage(systemName: "bolt.circle"), for: .normal)
-            }
-            
-            device.unlockForConfiguration()
-        } catch {
-            print("Error toggling flash: \(error)")
-        }
-    }*/
 }

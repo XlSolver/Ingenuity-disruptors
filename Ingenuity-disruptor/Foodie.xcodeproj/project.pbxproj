@@ -15,6 +15,7 @@
 		1775C6072B84D50300DA2737 /* TipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1775C6062B84D50300DA2737 /* TipsView.swift */; };
 		1775C6092B84D51800DA2737 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1775C6082B84D51800DA2737 /* ListView.swift */; };
 		1775C60C2B84D58C00DA2737 /* OpenFoodFactsSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 1775C60B2B84D58C00DA2737 /* OpenFoodFactsSDK */; };
+		2728DCD32B86399E00C1B591 /* SheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2728DCD22B86399E00C1B591 /* SheetView.swift */; };
 		F5058DD22B8398CA00A77C36 /* foodieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5058DD12B8398CA00A77C36 /* foodieModel.swift */; };
 		F5EED21A2B7FA067007A25E5 /* FoodieApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EED2192B7FA067007A25E5 /* FoodieApp.swift */; };
 		F5EED21C2B7FA067007A25E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EED21B2B7FA067007A25E5 /* ContentView.swift */; };
@@ -30,6 +31,7 @@
 		1775C6042B84D4E500DA2737 /* TabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabController.swift; sourceTree = "<group>"; };
 		1775C6062B84D50300DA2737 /* TipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsView.swift; sourceTree = "<group>"; };
 		1775C6082B84D51800DA2737 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		2728DCD22B86399E00C1B591 /* SheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetView.swift; sourceTree = "<group>"; };
 		F5058DD12B8398CA00A77C36 /* foodieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodieModel.swift; sourceTree = "<group>"; };
 		F5EED2162B7FA067007A25E5 /* Foodie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foodie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5EED2192B7FA067007A25E5 /* FoodieApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodieApp.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				1775C6002B84D46C00DA2737 /* BarcodeScannerControllerProcessing.swift */,
 				1775C6022B84D48E00DA2737 /* ScannerOverlayView.swift */,
 				F5EED21B2B7FA067007A25E5 /* ContentView.swift */,
+				2728DCD22B86399E00C1B591 /* SheetView.swift */,
 				1775C6042B84D4E500DA2737 /* TabController.swift */,
 				1775C6062B84D50300DA2737 /* TipsView.swift */,
 				1775C6082B84D51800DA2737 /* ListView.swift */,
@@ -182,6 +185,7 @@
 				F5058DD22B8398CA00A77C36 /* foodieModel.swift in Sources */,
 				1775C6032B84D48E00DA2737 /* ScannerOverlayView.swift in Sources */,
 				F5EED21A2B7FA067007A25E5 /* FoodieApp.swift in Sources */,
+				2728DCD32B86399E00C1B591 /* SheetView.swift in Sources */,
 				1775C5FF2B84D44500DA2737 /* BarcodeScannerController.swift in Sources */,
 				1775C5FD2B84D42300DA2737 /* BarcodeScannerScreen.swift in Sources */,
 				1775C6092B84D51800DA2737 /* ListView.swift in Sources */,
@@ -320,7 +324,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Foodie/Preview Content\"";
-				DEVELOPMENT_TEAM = 3B6HLC87UZ;
+				DEVELOPMENT_TEAM = Z4SW228TF7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "To capture product's photo";
@@ -350,7 +354,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Foodie/Preview Content\"";
-				DEVELOPMENT_TEAM = 3B6HLC87UZ;
+				DEVELOPMENT_TEAM = Z4SW228TF7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "To capture product's photo";

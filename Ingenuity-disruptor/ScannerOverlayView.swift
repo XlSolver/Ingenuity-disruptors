@@ -37,23 +37,6 @@ class ScannerOverlayView: UIView, CAAnimationDelegate {
         //setupFlashButton()
     }
 
-    /*private func setupFlashButton() {
-       flashButton.translatesAutoresizingMaskIntoConstraints = false
-       flashButton.setImage(UIImage(systemName: "bolt.slash.circle"), for: .normal)
-       flashButton.tintColor = .white
-       flashButton.contentMode = .scaleAspectFit
-       flashButton.contentVerticalAlignment = .fill
-       flashButton.contentHorizontalAlignment = .fill
-       addSubview(flashButton)
-       
-       NSLayoutConstraint.activate([
-           flashButton.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -20),
-           flashButton.bottomAnchor.constraint(equalTo: self.bottomAnchor, constant: -80),
-           flashButton.widthAnchor.constraint(equalToConstant: 40),
-           flashButton.heightAnchor.constraint(equalToConstant: 40)
-       ])
-   }*/
-
     private func setupOverlayView() {
         self.addSubview(overlayView)
         overlayView.translatesAutoresizingMaskIntoConstraints = false
