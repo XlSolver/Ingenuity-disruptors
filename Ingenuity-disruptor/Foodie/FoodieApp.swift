@@ -12,7 +12,7 @@ import SwiftData
 let schemaConfiguration = ModelConfiguration(isStoredInMemoryOnly: false, allowsSave: true)
 
 let foodContainer: ModelContainer = {
-    let schema = Schema ([food.self])
+    let schema = Schema ([foodData.self])
     let container = try! ModelContainer(for: schema, configurations: schemaConfiguration)
     
     return container
