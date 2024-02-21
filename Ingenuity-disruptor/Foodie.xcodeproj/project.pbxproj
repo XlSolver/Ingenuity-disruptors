@@ -42,11 +42,19 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		F581126D2B83B52D006D9F59 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F5EED20D2B7FA066007A25E5 = {
 			isa = PBXGroup;
 			children = (
 				F5EED2182B7FA067007A25E5 /* Foodie */,
 				F5EED2172B7FA067007A25E5 /* Products */,
+				F581126D2B83B52D006D9F59 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -287,6 +295,7 @@
 				DEVELOPMENT_TEAM = JZX85Z36BA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Foodie/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -316,6 +325,7 @@
 				DEVELOPMENT_TEAM = JZX85Z36BA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Foodie/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
