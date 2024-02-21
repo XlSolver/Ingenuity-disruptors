@@ -17,6 +17,7 @@
 		1775C60C2B84D58C00DA2737 /* OpenFoodFactsSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 1775C60B2B84D58C00DA2737 /* OpenFoodFactsSDK */; };
 		2728DCD32B86399E00C1B591 /* SheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2728DCD22B86399E00C1B591 /* SheetView.swift */; };
 		F5058DD22B8398CA00A77C36 /* foodieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5058DD12B8398CA00A77C36 /* foodieModel.swift */; };
+		F5A8BE682B86311000A6942E /* OpenFoodFactsSDK in Frameworks */ = {isa = PBXBuildFile; productRef = F5A8BE672B86311000A6942E /* OpenFoodFactsSDK */; };
 		F5EED21A2B7FA067007A25E5 /* FoodieApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EED2192B7FA067007A25E5 /* FoodieApp.swift */; };
 		F5EED21C2B7FA067007A25E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EED21B2B7FA067007A25E5 /* ContentView.swift */; };
 		F5EED21E2B7FA068007A25E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5EED21D2B7FA068007A25E5 /* Assets.xcassets */; };
@@ -60,6 +61,13 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		F581126D2B83B52D006D9F59 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F5EED20D2B7FA066007A25E5 = {
 			isa = PBXGroup;
 			children = (
@@ -74,6 +82,7 @@
 				1775C6062B84D50300DA2737 /* TipsView.swift */,
 				1775C6082B84D51800DA2737 /* ListView.swift */,
 				F5EED2172B7FA067007A25E5 /* Products */,
+				F581126D2B83B52D006D9F59 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -328,6 +337,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "To capture product's photo";
+				INFOPLIST_FILE = Foodie/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -358,6 +368,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "To capture product's photo";
+				INFOPLIST_FILE = Foodie/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
