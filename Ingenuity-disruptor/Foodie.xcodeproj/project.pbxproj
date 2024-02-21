@@ -17,7 +17,6 @@
 		1775C60C2B84D58C00DA2737 /* OpenFoodFactsSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 1775C60B2B84D58C00DA2737 /* OpenFoodFactsSDK */; };
 		2728DCD32B86399E00C1B591 /* SheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2728DCD22B86399E00C1B591 /* SheetView.swift */; };
 		F5058DD22B8398CA00A77C36 /* foodieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5058DD12B8398CA00A77C36 /* foodieModel.swift */; };
-		F5A8BE682B86311000A6942E /* OpenFoodFactsSDK in Frameworks */ = {isa = PBXBuildFile; productRef = F5A8BE672B86311000A6942E /* OpenFoodFactsSDK */; };
 		F5EED21A2B7FA067007A25E5 /* FoodieApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EED2192B7FA067007A25E5 /* FoodieApp.swift */; };
 		F5EED21C2B7FA067007A25E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EED21B2B7FA067007A25E5 /* ContentView.swift */; };
 		F5EED21E2B7FA068007A25E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5EED21D2B7FA068007A25E5 /* Assets.xcassets */; };
@@ -64,6 +63,15 @@
 		F581126D2B83B52D006D9F59 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1775C6062B84D50300DA2737 /* TipsView.swift */,
+				1775C6042B84D4E500DA2737 /* TabController.swift */,
+				2728DCD22B86399E00C1B591 /* SheetView.swift */,
+				F5EED21B2B7FA067007A25E5 /* ContentView.swift */,
+				1775C6022B84D48E00DA2737 /* ScannerOverlayView.swift */,
+				1775C6002B84D46C00DA2737 /* BarcodeScannerControllerProcessing.swift */,
+				1775C5FE2B84D44500DA2737 /* BarcodeScannerController.swift */,
+				1775C5FC2B84D42300DA2737 /* BarcodeScannerScreen.swift */,
+				1775C6082B84D51800DA2737 /* ListView.swift */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -72,15 +80,6 @@
 			isa = PBXGroup;
 			children = (
 				F5EED2182B7FA067007A25E5 /* Foodie */,
-				1775C5FC2B84D42300DA2737 /* BarcodeScannerScreen.swift */,
-				1775C5FE2B84D44500DA2737 /* BarcodeScannerController.swift */,
-				1775C6002B84D46C00DA2737 /* BarcodeScannerControllerProcessing.swift */,
-				1775C6022B84D48E00DA2737 /* ScannerOverlayView.swift */,
-				F5EED21B2B7FA067007A25E5 /* ContentView.swift */,
-				2728DCD22B86399E00C1B591 /* SheetView.swift */,
-				1775C6042B84D4E500DA2737 /* TabController.swift */,
-				1775C6062B84D50300DA2737 /* TipsView.swift */,
-				1775C6082B84D51800DA2737 /* ListView.swift */,
 				F5EED2172B7FA067007A25E5 /* Products */,
 				F581126D2B83B52D006D9F59 /* Frameworks */,
 			);
@@ -333,11 +332,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Foodie/Preview Content\"";
-				DEVELOPMENT_TEAM = Z4SW228TF7;
+				DEVELOPMENT_TEAM = JZX85Z36BA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSCameraUsageDescription = "To capture product's photo";
 				INFOPLIST_FILE = Foodie/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Expiry catch";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
+				INFOPLIST_KEY_NSCameraUsageDescription = "To capture product's photo";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -364,11 +365,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Foodie/Preview Content\"";
-				DEVELOPMENT_TEAM = Z4SW228TF7;
+				DEVELOPMENT_TEAM = JZX85Z36BA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSCameraUsageDescription = "To capture product's photo";
 				INFOPLIST_FILE = Foodie/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Expiry catch";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
+				INFOPLIST_KEY_NSCameraUsageDescription = "To capture product's photo";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

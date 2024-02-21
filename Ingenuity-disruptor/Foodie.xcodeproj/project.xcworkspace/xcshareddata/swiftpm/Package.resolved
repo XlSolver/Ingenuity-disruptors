@@ -12,7 +12,7 @@
     {
       "identity" : "openfoodfacts-swift",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/openfoodfacts/openfoodfacts-swift.git",
+      "location" : "https://github.com/openfoodfacts/openfoodfacts-swift",
       "state" : {
         "branch" : "main",
         "revision" : "3801106166481a9bbda74c9c6933791e5139afbf"
