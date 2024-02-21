@@ -18,6 +18,8 @@ protocol BarcodeScannerDelegate: AnyObject {
 
 class BarcodeScannerController: UIViewController {
 
+    let session = AVCaptureSession()
+    
     var delegate: BarcodeScannerDelegate?
     
     // Processing extension variables
@@ -54,6 +56,8 @@ class BarcodeScannerController: UIViewController {
         
         view.addSubview(overlayView)
     }
+    
+    
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)

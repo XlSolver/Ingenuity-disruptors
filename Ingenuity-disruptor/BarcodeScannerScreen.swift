@@ -17,7 +17,7 @@ struct BarcodeScannerScreen: UIViewControllerRepresentable {
         if isCapturing {
             uiViewController.resumeCapturing()
         } else {
-            uiViewController.pauseCapturing()
+            uiViewController.viewDidDisappear(true)
         }
     }
 }
