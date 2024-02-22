@@ -6,16 +6,31 @@
 //
 
 import SwiftUI
+import SwiftData
 
 struct SheetView: View {
+    @Environment(\.modelContext) var foodContext
     @Environment(\.dismiss) var dismiss
-
+    
+    @Binding var expiryingDate: Date
+    
     var body: some View {
-        Button("Press to dismiss") {
-            dismiss()
+        NavigationStack {
+            
+            
+            DatePicker("Expiry date", selection: $expiryingDate, displayedComponents: [.date])
+            .toolbar {
+                ToolbarItem (placement: .topBarTrailing) {
+                    Button("Add") {
+                        try! foodContext.save()
+                        dismiss()
+                    }
+                }
+            }
         }
-        .font(.title)
-        .padding()
-        .background(.black)
     }
+}
+
+#Preview {
+    SheetView(expiryingDate: .constant(Date()))
 }

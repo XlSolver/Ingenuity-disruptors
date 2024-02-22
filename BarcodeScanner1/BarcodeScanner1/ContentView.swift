@@ -54,7 +54,7 @@ struct ContentView: View {
                 }
         
     }.sheet(isPresented: $isEditing, content: {
-        SheetView()
+        SheetView(expiryingDate: .constant(Date()))
     })
 }
 

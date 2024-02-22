@@ -11,12 +11,10 @@ import SwiftData
 @Model
 class foodData: Identifiable {
     let id = UUID()
-    var temp: String
     var name: String
     var expiryingDate: Date
     
-    init(temp: String, name: String, expiryingDate: Date) {
-        self.temp = temp
+    init(name: String, expiryingDate: Date) {
         self.name = name
         self.expiryingDate = expiryingDate
     }
