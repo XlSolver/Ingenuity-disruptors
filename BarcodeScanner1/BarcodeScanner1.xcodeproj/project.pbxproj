@@ -23,6 +23,7 @@
 		278C8FCD2B84B3AA0002AC5E /* TipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278C8FCC2B84B3AA0002AC5E /* TipsView.swift */; };
 		278C8FD22B8502680002AC5E /* OpenFoodFactsSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 278C8FD12B8502680002AC5E /* OpenFoodFactsSDK */; };
 		278C8FD42B86092F0002AC5E /* SheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278C8FD32B86092F0002AC5E /* SheetView.swift */; };
+		F5B9B03B2B877F760012DF7E /* foodModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B9B03A2B877F760012DF7E /* foodModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		278C8FCA2B84B3760002AC5E /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		278C8FCC2B84B3AA0002AC5E /* TipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsView.swift; sourceTree = "<group>"; };
 		278C8FD32B86092F0002AC5E /* SheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetView.swift; sourceTree = "<group>"; };
+		F5B9B03A2B877F760012DF7E /* foodModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		278C8F9C2B84AAD60002AC5E = {
 			isa = PBXGroup;
 			children = (
+				F5B9B0392B877F510012DF7E /* Model */,
 				278C8FA72B84AAD60002AC5E /* BarcodeScanner1 */,
 				278C8FA62B84AAD60002AC5E /* Products */,
 			);
@@ -97,6 +100,14 @@
 				278C8FAF2B84AAD70002AC5E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F5B9B0392B877F510012DF7E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F5B9B03A2B877F760012DF7E /* foodModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,6 +196,7 @@
 				278C8FD42B86092F0002AC5E /* SheetView.swift in Sources */,
 				278C8FC72B84AF3F0002AC5E /* BarcodeScannerControllerProcessing.swift in Sources */,
 				278C8FC52B84AECE0002AC5E /* ScannerOverlayView.swift in Sources */,
+				F5B9B03B2B877F760012DF7E /* foodModel.swift in Sources */,
 				278C8FAB2B84AAD60002AC5E /* ContentView.swift in Sources */,
 				278C8FA92B84AAD60002AC5E /* BarcodeScanner1App.swift in Sources */,
 				278C8FCD2B84B3AA0002AC5E /* TipsView.swift in Sources */,
@@ -323,7 +335,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BarcodeScanner1/Preview Content\"";
-				DEVELOPMENT_TEAM = Z4SW228TF7;
+				DEVELOPMENT_TEAM = JZX85Z36BA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "To capture product photos";
@@ -337,7 +349,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.francescaferrini.BarcodeScanner1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.salvatoreflauto.BarcodeScanner1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -353,7 +365,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BarcodeScanner1/Preview Content\"";
-				DEVELOPMENT_TEAM = Z4SW228TF7;
+				DEVELOPMENT_TEAM = JZX85Z36BA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "To capture product photos";
@@ -367,7 +379,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.francescaferrini.BarcodeScanner1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.salvatoreflauto.BarcodeScanner1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
