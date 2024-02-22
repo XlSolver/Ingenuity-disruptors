@@ -15,21 +15,22 @@ struct SheetView: View {
     @Binding var expiryingDate: Date
     
     var body: some View {
-        NavigationStack {
+        VStack {
+            Image(systemName: "test")
             
+            Button {
+                try! foodContext.save()
+                print("Item saved")
+                dismiss()
+            } label: {
+                Text("Add")
+            }
             
             DatePicker("Expiry date", selection: $expiryingDate, displayedComponents: [.date])
-            .toolbar {
-                ToolbarItem (placement: .topBarTrailing) {
-                    Button("Add") {
-                        try! foodContext.save()
-                        dismiss()
-                    }
-                }
-            }
         }
     }
 }
+
 
 #Preview {
     SheetView(expiryingDate: .constant(Date()))

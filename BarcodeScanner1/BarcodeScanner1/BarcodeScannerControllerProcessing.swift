@@ -8,6 +8,9 @@
 import UIKit
 import AVFoundation
 import Vision
+import SwiftData
+
+
 
 extension BarcodeScannerController: AVCaptureVideoDataOutputSampleBufferDelegate {
     
@@ -32,7 +35,6 @@ extension BarcodeScannerController: AVCaptureVideoDataOutputSampleBufferDelegate
     }
     
     func captureOutput(_ output: AVCaptureOutput, didOutput sampleBuffer: CMSampleBuffer, from connection: AVCaptureConnection) {
-        
         guard let pixelBuffer = CMSampleBufferGetImageBuffer(sampleBuffer) else { return }
         
         var requestOptions:[VNImageOption : Any] = [:]

@@ -10,6 +10,8 @@ import AVFoundation
 
 import Vision
 
+import SwiftData
+
 protocol BarcodeScannerDelegate: AnyObject {
     func didFindCode(code: String)
     func stoppedCapturing()
@@ -125,7 +127,7 @@ class BarcodeScannerController: UIViewController {
         
         self.captureSession.addOutput(videoOutput)
         for connection in videoOutput.connections {
-            connection.videoOrientation = .portrait
+            connection.videoRotationAngle = CGFloat(0.0)
         }
         self.captureSession.commitConfiguration()
         self.initialised = true

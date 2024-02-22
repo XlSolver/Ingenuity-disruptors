@@ -62,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				F5B9B0392B877F510012DF7E /* Model */,
+				F5B9B03E2B87A4FD0012DF7E /* View */,
 				278C8FA72B84AAD60002AC5E /* BarcodeScanner1 */,
 				278C8FA62B84AAD60002AC5E /* Products */,
 			);
@@ -83,11 +84,7 @@
 				278C8FC62B84AF3F0002AC5E /* BarcodeScannerControllerProcessing.swift */,
 				F5B9B03C2B8795650012DF7E /* BarcodeScannerScreen.swift */,
 				278C8FC42B84AECE0002AC5E /* ScannerOverlayView.swift */,
-				278C8FAA2B84AAD60002AC5E /* ContentView.swift */,
-				278C8FD32B86092F0002AC5E /* SheetView.swift */,
 				278C8FC82B84B3270002AC5E /* TabController.swift */,
-				278C8FCC2B84B3AA0002AC5E /* TipsView.swift */,
-				278C8FCA2B84B3760002AC5E /* ListView.swift */,
 				278C8FAC2B84AAD70002AC5E /* Assets.xcassets */,
 				278C8FAE2B84AAD70002AC5E /* Preview Content */,
 			);
@@ -108,6 +105,17 @@
 				F5B9B03A2B877F760012DF7E /* foodModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		F5B9B03E2B87A4FD0012DF7E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				278C8FCC2B84B3AA0002AC5E /* TipsView.swift */,
+				278C8FAA2B84AAD60002AC5E /* ContentView.swift */,
+				278C8FCA2B84B3760002AC5E /* ListView.swift */,
+				278C8FD32B86092F0002AC5E /* SheetView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
