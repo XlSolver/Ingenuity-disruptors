@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		172644B42B87C52000B56F4C /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172644B32B87C52000B56F4C /* Product.swift */; };
+		172644B92B87CA2700B56F4C /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = 172644B82B87CA2700B56F4C /* CodeScanner */; };
 		278C8FA92B84AAD60002AC5E /* BarcodeScanner1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278C8FA82B84AAD60002AC5E /* BarcodeScanner1App.swift */; };
 		278C8FAB2B84AAD60002AC5E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278C8FAA2B84AAD60002AC5E /* ContentView.swift */; };
 		278C8FAD2B84AAD70002AC5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 278C8FAC2B84AAD70002AC5E /* Assets.xcassets */; };
@@ -14,7 +16,6 @@
 		278C8FB82B84AB690002AC5E /* BarcodeView in Frameworks */ = {isa = PBXBuildFile; productRef = 278C8FB72B84AB690002AC5E /* BarcodeView */; };
 		278C8FBB2B84ABA80002AC5E /* CropViewController in Frameworks */ = {isa = PBXBuildFile; productRef = 278C8FBA2B84ABA80002AC5E /* CropViewController */; };
 		278C8FBD2B84ABA80002AC5E /* TOCropViewController in Frameworks */ = {isa = PBXBuildFile; productRef = 278C8FBC2B84ABA80002AC5E /* TOCropViewController */; };
-		278C8FC12B84ADD80002AC5E /* BarcodeScannerScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278C8FC02B84ADD80002AC5E /* BarcodeScannerScreen.swift */; };
 		278C8FC32B84AE790002AC5E /* BarcodeScannerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278C8FC22B84AE790002AC5E /* BarcodeScannerController.swift */; };
 		278C8FC52B84AECE0002AC5E /* ScannerOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278C8FC42B84AECE0002AC5E /* ScannerOverlayView.swift */; };
 		278C8FC72B84AF3F0002AC5E /* BarcodeScannerControllerProcessing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278C8FC62B84AF3F0002AC5E /* BarcodeScannerControllerProcessing.swift */; };
@@ -24,15 +25,16 @@
 		278C8FD22B8502680002AC5E /* OpenFoodFactsSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 278C8FD12B8502680002AC5E /* OpenFoodFactsSDK */; };
 		278C8FD42B86092F0002AC5E /* SheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278C8FD32B86092F0002AC5E /* SheetView.swift */; };
 		F5B9B03B2B877F760012DF7E /* foodModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B9B03A2B877F760012DF7E /* foodModel.swift */; };
+		F5B9B03D2B8795650012DF7E /* BarcodeScannerScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B9B03C2B8795650012DF7E /* BarcodeScannerScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		172644B32B87C52000B56F4C /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		278C8FA52B84AAD60002AC5E /* BarcodeScanner1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarcodeScanner1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		278C8FA82B84AAD60002AC5E /* BarcodeScanner1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeScanner1App.swift; sourceTree = "<group>"; };
 		278C8FAA2B84AAD60002AC5E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		278C8FAC2B84AAD70002AC5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		278C8FAF2B84AAD70002AC5E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		278C8FC02B84ADD80002AC5E /* BarcodeScannerScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeScannerScreen.swift; sourceTree = "<group>"; };
 		278C8FC22B84AE790002AC5E /* BarcodeScannerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeScannerController.swift; sourceTree = "<group>"; };
 		278C8FC42B84AECE0002AC5E /* ScannerOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerOverlayView.swift; sourceTree = "<group>"; };
 		278C8FC62B84AF3F0002AC5E /* BarcodeScannerControllerProcessing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeScannerControllerProcessing.swift; sourceTree = "<group>"; };
@@ -41,6 +43,7 @@
 		278C8FCC2B84B3AA0002AC5E /* TipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsView.swift; sourceTree = "<group>"; };
 		278C8FD32B86092F0002AC5E /* SheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetView.swift; sourceTree = "<group>"; };
 		F5B9B03A2B877F760012DF7E /* foodModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodModel.swift; sourceTree = "<group>"; };
+		F5B9B03C2B8795650012DF7E /* BarcodeScannerScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarcodeScannerScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +55,7 @@
 				278C8FD22B8502680002AC5E /* OpenFoodFactsSDK in Frameworks */,
 				278C8FBD2B84ABA80002AC5E /* TOCropViewController in Frameworks */,
 				278C8FBB2B84ABA80002AC5E /* CropViewController in Frameworks */,
+				172644B92B87CA2700B56F4C /* CodeScanner in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,9 +83,9 @@
 			isa = PBXGroup;
 			children = (
 				278C8FA82B84AAD60002AC5E /* BarcodeScanner1App.swift */,
-				278C8FC02B84ADD80002AC5E /* BarcodeScannerScreen.swift */,
 				278C8FC22B84AE790002AC5E /* BarcodeScannerController.swift */,
 				278C8FC62B84AF3F0002AC5E /* BarcodeScannerControllerProcessing.swift */,
+				F5B9B03C2B8795650012DF7E /* BarcodeScannerScreen.swift */,
 				278C8FC42B84AECE0002AC5E /* ScannerOverlayView.swift */,
 				278C8FAA2B84AAD60002AC5E /* ContentView.swift */,
 				278C8FD32B86092F0002AC5E /* SheetView.swift */,
@@ -90,6 +94,7 @@
 				278C8FCA2B84B3760002AC5E /* ListView.swift */,
 				278C8FAC2B84AAD70002AC5E /* Assets.xcassets */,
 				278C8FAE2B84AAD70002AC5E /* Preview Content */,
+				172644B32B87C52000B56F4C /* Product.swift */,
 			);
 			path = BarcodeScanner1;
 			sourceTree = "<group>";
@@ -131,6 +136,7 @@
 				278C8FBA2B84ABA80002AC5E /* CropViewController */,
 				278C8FBC2B84ABA80002AC5E /* TOCropViewController */,
 				278C8FD12B8502680002AC5E /* OpenFoodFactsSDK */,
+				172644B82B87CA2700B56F4C /* CodeScanner */,
 			);
 			productName = BarcodeScanner1;
 			productReference = 278C8FA52B84AAD60002AC5E /* BarcodeScanner1.app */;
@@ -164,6 +170,7 @@
 				278C8FB62B84AB690002AC5E /* XCRemoteSwiftPackageReference "BarcodeView" */,
 				278C8FB92B84ABA80002AC5E /* XCRemoteSwiftPackageReference "TOCropViewController" */,
 				278C8FD02B8502680002AC5E /* XCRemoteSwiftPackageReference "openfoodfacts-swift" */,
+				172644B72B87CA2700B56F4C /* XCRemoteSwiftPackageReference "CodeScanner" */,
 			);
 			productRefGroup = 278C8FA62B84AAD60002AC5E /* Products */;
 			projectDirPath = "";
@@ -196,12 +203,13 @@
 				278C8FD42B86092F0002AC5E /* SheetView.swift in Sources */,
 				278C8FC72B84AF3F0002AC5E /* BarcodeScannerControllerProcessing.swift in Sources */,
 				278C8FC52B84AECE0002AC5E /* ScannerOverlayView.swift in Sources */,
+				172644B42B87C52000B56F4C /* Product.swift in Sources */,
 				F5B9B03B2B877F760012DF7E /* foodModel.swift in Sources */,
 				278C8FAB2B84AAD60002AC5E /* ContentView.swift in Sources */,
 				278C8FA92B84AAD60002AC5E /* BarcodeScanner1App.swift in Sources */,
 				278C8FCD2B84B3AA0002AC5E /* TipsView.swift in Sources */,
-				278C8FC12B84ADD80002AC5E /* BarcodeScannerScreen.swift in Sources */,
 				278C8FC32B84AE790002AC5E /* BarcodeScannerController.swift in Sources */,
+				F5B9B03D2B8795650012DF7E /* BarcodeScannerScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,7 +343,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BarcodeScanner1/Preview Content\"";
-				DEVELOPMENT_TEAM = JZX85Z36BA;
+				DEVELOPMENT_TEAM = 3B6HLC87UZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "To capture product photos";
@@ -365,7 +373,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BarcodeScanner1/Preview Content\"";
-				DEVELOPMENT_TEAM = JZX85Z36BA;
+				DEVELOPMENT_TEAM = 3B6HLC87UZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "To capture product photos";
@@ -411,6 +419,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		172644B72B87CA2700B56F4C /* XCRemoteSwiftPackageReference "CodeScanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/CodeScanner";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.3.3;
+			};
+		};
 		278C8FB62B84AB690002AC5E /* XCRemoteSwiftPackageReference "BarcodeView" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/hrabkin/BarcodeView.git";
@@ -438,6 +454,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		172644B82B87CA2700B56F4C /* CodeScanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 172644B72B87CA2700B56F4C /* XCRemoteSwiftPackageReference "CodeScanner" */;
+			productName = CodeScanner;
+		};
 		278C8FB72B84AB690002AC5E /* BarcodeView */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 278C8FB62B84AB690002AC5E /* XCRemoteSwiftPackageReference "BarcodeView" */;

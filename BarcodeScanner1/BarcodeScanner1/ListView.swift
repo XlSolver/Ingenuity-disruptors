@@ -8,11 +8,17 @@
 import SwiftUI
 
 struct ListView: View {
+    @ObservedObject var savedProduct: SavedFoodViewModel
     var body: some View {
-        Text("Lista")
+        VStack {
+            ForEach(savedProduct.savedFoods, id: \.self) { food in
+                AsyncImage(url: food.imageUrl)
+                    .padding()
+                    .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: 100)
+                Text(food.productName!)
+            }
+        }
     }
 }
 
-#Preview {
-    ListView()
-}
+

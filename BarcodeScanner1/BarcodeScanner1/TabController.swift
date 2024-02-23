@@ -14,6 +14,7 @@ import SwiftUI
     let
 }*/
 struct TabController: View {
+    @ObservedObject var savedProduct: SavedFoodViewModel = SavedFoodViewModel()
     @State private var selection = 1 // Impostiamo la selezione iniziale sulla scheda dello scanner
     
     var body: some View {
@@ -23,12 +24,12 @@ struct TabController: View {
                 .tabItem {
                     Label("Tips", systemImage: "lightbulb.min")
                 }
-            ContentView()
+            ContentView(savedProduct: savedProduct)
                 .tag(1) // Assegniamo il tag 1 alla scheda "Scanner"
                 .tabItem {
                     Label("Scan", systemImage: "barcode.viewfinder")
                 }
-            ListView()
+            ListView(savedProduct: savedProduct)
                 .tag(2) // Assegniamo il tag 2 alla scheda "Book"
                 .tabItem {
                     Label("Book",systemImage: "book")
