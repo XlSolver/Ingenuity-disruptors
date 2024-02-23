@@ -26,4 +26,5 @@ struct ListView: View {
 
 #Preview {
     ListView()
+        .modelContainer(foodContainer)
 }

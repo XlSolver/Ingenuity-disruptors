@@ -34,4 +34,5 @@ struct SheetView: View {
 
 #Preview {
     SheetView(expiryingDate: .constant(Date()))
+        .modelContainer(foodContainer)
 }
